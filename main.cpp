@@ -2,7 +2,7 @@
 
 void hello_world()
 {
-	std::cout << "hello \n";
+	std::cout << "hello world\n";
 }
 
 int main()
@@ -10,6 +10,6 @@ int main()
 	//void (*funcPtr)();
 
 	( (void (*)()) hello_world)();
-
+        
 	return 0;
 }
